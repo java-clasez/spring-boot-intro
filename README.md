@@ -1,4 +1,4 @@
-### Homeowrk (2021-05-09)
+### Homework (2021-05-09)
 
 - Get the latest from the repository (git pull)
 - Setup POSTMAN 
