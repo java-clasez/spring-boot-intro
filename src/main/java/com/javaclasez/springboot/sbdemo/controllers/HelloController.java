@@ -67,10 +67,14 @@ public class HelloController {
 
 
     @GetMapping(path = "/item/{id}")
-    public Item getItem(@PathVariable Integer id) {
+    public Item getItemByPathVariable(@PathVariable Integer id) {
         return itemsMap.get(id);
     }
 
+    @GetMapping(path = "/getItem")
+    public Item getItemByRequestParam(@RequestParam(name = "id", required = true) Integer id) {
+        return itemsMap.get(id);
+    }
 }
 
 @Getter
