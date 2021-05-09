@@ -1,13 +1,20 @@
 ## 2021-05-09
 
 ### Topics Covered
+- PathVariables
+- RequestParams
+- CRUD Operations (in memory example)
+- Postman
+	- Creating Requests
+	- Creating Collections
+	- Import Collections
 ```
 HTTP Verbs (REST Verbs): Write code
 
-	GET			- 	To Read
-	POST		- 	To Create (New)
-	PUT			-	To Update
-	DELETE		-	To Delete
+GET		- 	To Read	
+POST		- 	To Create (New)
+PUT		-	To Update
+DELETE		-	To Delete
 
 CRUD Operations; Verbal/Written communication
 - Create
